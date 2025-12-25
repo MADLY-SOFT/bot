@@ -11,7 +11,7 @@ from datetime import datetime, timedelta
 admin_id = 1621495791
 
 
-conn = sqlite3.connect('bd.db')
+conn = sqlite3.connect('base_main.db')
 conn.row_factory = sqlite3.Row
 cursor = conn.cursor()
 cursor.execute("""
